@@ -20,7 +20,7 @@ export class CS571Auth {
     }
 
     public async fetchLatestBadgerIds() {
-        const res = await fetch("https://cs571.org/api/auth/get-all-bids", {
+        const res = await fetch(this.config.SECRET_CONFIG.AUTH_HOST, {
             headers: {
                 "X-CS571-SECRET": this.config.SECRET_CONFIG.X_CS571_SECRET
             }

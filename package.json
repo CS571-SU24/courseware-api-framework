@@ -1,6 +1,6 @@
 {
   "name": "@cs571/su24-api-framework",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "",
   "main": "dist/index.js",
   "private": false,
