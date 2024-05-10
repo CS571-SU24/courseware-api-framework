@@ -15,7 +15,7 @@ export class CS571Auth {
     }
 
     public async init(): Promise<void> {
-        setInterval(() => { this.fetchLatestBadgerIds() }, 1000 * 60 * 10);
+        setInterval(() => { this.fetchLatestBadgerIds() }, 1000 * 60 * 1);
         await this.fetchLatestBadgerIds();
     }
 
